@@ -1,0 +1,209 @@
+<keymap name="Visual Studio Code" parent="$default" version="1">
+    <action id="CloseContent">        <!-- Close active editor tab -->
+        <keyboard-shortcut first-keystroke="control W"/>
+    </action>
+    <action id="ShowSettings">        <!-- Open Settings dialog -->
+        <keyboard-shortcut first-keystroke="control COMMA"/>
+    </action>
+    <action id="$Redo">        <!-- Redo -->
+        <keyboard-shortcut first-keystroke="control Y"/>
+    </action>
+    <action id="MethodUp"/>
+    <action id="MoveLineUp">        <!-- Move line up -->
+        <keyboard-shortcut first-keystroke="alt UP"/>
+    </action>
+    <action id="MethodDown"/>
+    <action id="MoveLineDown">        <!-- Move line down -->
+        <keyboard-shortcut first-keystroke="alt DOWN"/>
+    </action>
+    <action id="EditorDeleteLine">        <!-- Delete line -->
+        <keyboard-shortcut first-keystroke="control shift K"/>
+    </action>
+    <action id="EditorSplitLine"/>
+    <action id="EditorStartNewLine">        <!-- Start new line -->
+        <keyboard-shortcut first-keystroke="control ENTER"/>
+    </action>
+    <action id="EditorStartNewLineBefore">        <!-- Start new line before current -->
+        <keyboard-shortcut first-keystroke="control shift ENTER"/>
+    </action>
+    <action id="EditorIndentSelection">        <!-- Indent selection -->
+        <keyboard-shortcut first-keystroke="control CLOSE_BRACKET"/>
+    </action>
+    <action id="EditorIndentLineOrSelection">        <!-- Indent line or selection -->
+        <keyboard-shortcut first-keystroke="control CLOSE_BRACKET"/>
+    </action>
+    <action id="EditorUnindentSelection">        <!-- Unindent line or selection -->
+        <keyboard-shortcut first-keystroke="control OPEN_BRACKET"/>
+        <keyboard-shortcut first-keystroke="shift TAB"/>
+    </action>
+    <action id="EditorPageUp">        <!-- Page up -->
+        <keyboard-shortcut first-keystroke="alt PAGE_UP"/>
+        <keyboard-shortcut first-keystroke="PAGE_UP"/>
+    </action>
+    <action id="EditorPageDown">        <!-- Page down -->
+        <keyboard-shortcut first-keystroke="alt PAGE_DOWN"/>
+        <keyboard-shortcut first-keystroke="PAGE_DOWN"/>
+    </action>
+    <action id="EditorCodeBlockStartWithSelection"/>
+    <action id="CollapseRegion">        <!-- Collapse code block -->
+        <keyboard-shortcut first-keystroke="control shift OPEN_BRACKET"/>
+    </action>
+    <action id="EditorCodeBlockEndWithSelection"/>
+    <action id="ExpandRegion">        <!-- Expand code block -->
+        <keyboard-shortcut first-keystroke="control shift CLOSE_BRACKET"/>
+    </action>
+    <action id="CollapseAllRegions">        <!-- Collapse all -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="control 0"/>
+    </action>
+    <action id="ExpandAllRegions">        <!-- Expand all -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="control J"/>
+    </action>
+    <action id="CommentByBlockComment">        <!-- Comment/uncomment with block comment -->
+        <keyboard-shortcut first-keystroke="shift alt A"/>
+    </action>
+    <action id="ParameterInfo"/>
+    <action id="GotoFile">        <!-- Go to file -->
+        <keyboard-shortcut first-keystroke="control P"/>
+    </action>
+    <action id="GotoSymbol">        <!-- Go to symbol -->
+        <keyboard-shortcut first-keystroke="control shift O"/>
+    </action>
+    <action id="GotoNextError">        <!-- Next highlighted error -->
+        <keyboard-shortcut first-keystroke="F8"/>
+    </action>
+    <action id="GotoPreviousError">        <!-- Previous highlighted error -->
+        <keyboard-shortcut first-keystroke="shift F8"/>
+    </action>
+    <action id="Back">        <!-- Navigate back -->
+        <keyboard-shortcut first-keystroke="control alt MINUS"/>
+    </action>
+    <action id="Forward">        <!-- Navigate forward -->
+        <keyboard-shortcut first-keystroke="control shift MINUS"/>
+    </action>
+    <action id="Replace">        <!-- Replace -->
+        <keyboard-shortcut first-keystroke="control H"/>
+    </action>
+    <action id="SelectAllOccurrences">        <!-- Select all occurrences -->
+        <keyboard-shortcut first-keystroke="alt ENTER"/>
+        <!-- Select all occurrences of Find match -->
+        <keyboard-shortcut first-keystroke="control shift L"/>
+        <!-- Select all occurrences of current selection -->
+        <keyboard-shortcut first-keystroke="control F2"/>
+        <!-- Select all occurrences of current word -->
+    </action>
+    <action id="EditorSelectWord">        <!-- Extend selection -->
+        <keyboard-shortcut first-keystroke="shift alt RIGHT"/>
+    </action>
+    <action id="EditorUnSelectWord">        <!-- Shrink selection -->
+        <keyboard-shortcut first-keystroke="shift alt LEFT"/>
+    </action>
+    <action id="AddToFavoritesPopup"/>
+    <action id="ReformatCode">        <!-- Format code -->
+        <keyboard-shortcut first-keystroke="control shift I"/>
+        <!-- Format document -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="control F"/>
+        <!-- Format selection -->
+    </action>
+    <action id="JumpToLastWindow"/>
+    <action id="GotoDeclaration">        <!-- Go to declaration -->
+        <keyboard-shortcut first-keystroke="F12"/>
+    </action>
+    <action id="QuickImplementations">        <!-- Open quick definition lookup -->
+        <keyboard-shortcut first-keystroke="control shift F10"/>
+    </action>
+    <action id="FileStructurePopup"/>
+    <action id="GotoImplementation">        <!-- Go to implementation(s) -->
+        <keyboard-shortcut first-keystroke="control F12"/>
+    </action>
+    <action id="ShowIntentionActions">        <!-- Show intention actions and quick-fixes -->
+        <keyboard-shortcut first-keystroke="control PERIOD"/>
+    </action>
+    <action id="FindUsages">        <!-- Find usages -->
+        <keyboard-shortcut first-keystroke="shift F12"/>
+    </action>
+    <action id="PreviousTab">        <!-- Go to previous editor tab -->
+        <keyboard-shortcut first-keystroke="control PAGE_UP"/>
+    </action>
+    <action id="NextTab">        <!-- Go to next editor tab -->
+        <keyboard-shortcut first-keystroke="control PAGE_DOWN"/>
+    </action>
+    <action id="CopyPaths">        <!-- Copy paths -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="P"/>
+    </action>
+    <action id="EditSourceInNewWindow">        <!-- Open source in new window -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="O"/>
+    </action>
+    <action id="EditorToggleCase"/>
+    <action id="ActivateRunToolWindow">        <!-- Show Run window -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="control H"/>
+    </action>
+    <action id="Resume"/>
+    <action id="ToggleLineBreakpoint">        <!-- Toggle breakpoint -->
+        <keyboard-shortcut first-keystroke="F9"/>
+    </action>
+    <action id="Run">        <!-- Run -->
+        <keyboard-shortcut first-keystroke="control F5"/>
+    </action>
+    <action id="CopyElement"/>
+    <action id="Debug">        <!-- Debug -->
+        <keyboard-shortcut first-keystroke="F5"/>
+    </action>
+    <action id="Stop">        <!-- Stop debugging -->
+        <keyboard-shortcut first-keystroke="shift F5"/>
+    </action>
+    <action id="ToggleBookmark"/>
+    <action id="StepInto">        <!-- Step into -->
+        <keyboard-shortcut first-keystroke="F11"/>
+    </action>
+    <action id="ShowBookmarks"/>
+    <action id="StepOut">        <!-- Step out -->
+        <keyboard-shortcut first-keystroke="shift F11"/>
+    </action>
+    <action id="StepOver">        <!-- Step over -->
+        <keyboard-shortcut first-keystroke="F10"/>
+    </action>
+    <action id="QuickChangeScheme"/>
+    <action id="ActivateTerminalToolWindow">        <!-- Show Terminal window -->
+        <keyboard-shortcut first-keystroke="control BACK_QUOTE"/>
+    </action>
+    <action id="EditorCloneCaretAbove">        <!-- Clone caret above -->
+        <keyboard-shortcut first-keystroke="shift alt UP"/>
+    </action>
+    <action id="EditorCloneCaretBelow">        <!-- Clone caret down -->
+        <keyboard-shortcut first-keystroke="shift alt DOWN"/>
+    </action>
+    <action id="ContextHelp"/>
+    <action id="GotoAction">        <!-- Find Action -->
+        <keyboard-shortcut first-keystroke="F1"/>
+        <keyboard-shortcut first-keystroke="control shift P"/>
+    </action>
+    <action id="SelectNextOccurrence">        <!-- Select next occurrence -->
+        <keyboard-shortcut first-keystroke="control D"/>
+    </action>
+    <action id="ToggleFullScreen">        <!-- Toggle full screen mode -->
+        <!-- <keyboard-shortcut first-keystroke="F11"/> -->
+    </action>
+    <action id="RecentFiles">        <!-- Recent files -->
+        <keyboard-shortcut first-keystroke="control R"/>
+    </action>
+    <action id="RenameElement">        <!-- Rename -->
+        <keyboard-shortcut first-keystroke="F2"/>
+    </action>
+    <action id="ReplaceInPath"/>
+    <action id ="Refactorings.QuickListPopupAction">        <!-- Refactor this -->
+        <keyboard-shortcut first-keystroke="control shift R"/>
+    </action>
+    <action id="OptimizeImports">        <!-- Optimize imports -->
+        <keyboard-shortcut first-keystroke="shift alt O"/>
+    </action>
+    <action id="JumpToLastChange">        <!-- Navigate to last edit location -->
+        <keyboard-shortcut first-keystroke="control K" second-keystroke="control Q"/>
+    </action>
+    <action id="ShowNavBar">        <!-- Show navigation bar -->
+        <keyboard-shortcut first-keystroke="control shift PERIOD"/>
+    </action>
+    <action id="GotoTypeDeclaration"/>
+    <action id="CompileDirty">        <!-- Make project -->
+        <keyboard-shortcut first-keystroke="control shift B"/>
+    </action>
+</keymap>

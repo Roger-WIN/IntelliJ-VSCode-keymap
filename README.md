@@ -8,21 +8,23 @@ Valid theoretically for other JetBrains IDEs (PyCharm, WebStorm, etc.).
 
 ## Install
 
+The keymap config files are in the `keymaps` directory.
+
 ### Windows
 
-Copy `VS Code.xml` to `%USERPROFILE%\.IntelliJIdea<xxx>\config\keymaps`.
+Copy `VS Code for Windows.xml` to `%USERPROFILE%\.IntelliJIdea<xxx>\config\keymaps`.
 
 ### Linux
 
-Copy `VS Code.xml` to `/home/<user>/.IntelliJIdea<xxx>/config/keymaps`.
+Copy `VS Code for Linux.xml` to `/home/<user>/.IntelliJIdea<xxx>/config/keymaps`.
 
 ## Note
 
 ### Install
 
-If there is no `keymaps` directory, manually create it.
+If there is no `keymaps` directory in the IDE’s `config` directory, manually create it.
 
-To actually change the keymap, open settings (Ctrl+Alt+S), select the Keymap page and choose "Visual Studio Code" in the dropdown menu. You will need to restart the IDE for it to show up.
+To actually change the keymap, open settings (`Ctrl+Alt+S`), select the Keymap page and choose "Visual Studio Code" in the dropdown menu. You will need to restart the IDE for it to show up.
 
 Besides, if you have enabled Settings Sync, customized keymaps may won’t show up in the dropdown menu.
 
@@ -47,7 +49,7 @@ For this reason, my solution is to unassign the conflicting operations in Intell
 </action>
 ```
 
-where the operation in the first line of the example above is not assigned with any keyboard shortcut. That usually means **Method down** (from IntelliJ IDEA) and **Move line down** (from VS Code) had the same mapped keyboard shortcuts `Alt+DownArrow`. And now, **Method down** is not assigned with any keyboard shortcut, and `Alt+DownArrow` means **Move line down** currently.
+where the operation in the first line of the example above is not assigned with any keyboard shortcut. That usually means **Method down** (from IntelliJ IDEA) and **Move line down** (from VS Code) had the same mapped keyboard shortcut `Alt+↓`. And now, **Method down** is not assigned with any keyboard shortcut, and `Alt+↓` means **Move line down**.
 
 Of course, you can also reserve the default operations in IntelliJ IDEA of conflicted keyboard shortcuts. Just modify the keymap config file like:
 
@@ -58,6 +60,8 @@ Of course, you can also reserve the default operations in IntelliJ IDEA of confl
 </action>
 ```
 
+which means that **Method down** continues to retain its mapped default keyboard shortcut in IntelliJ IDEA and **Move line down** is unassigned with the keyboard shortcut `Alt+↓`.
+
 You can also choose to delete the code commented or all of it in the example above.
 
 ## Reference
@@ -65,6 +69,7 @@ You can also choose to delete the code commented or all of it in the example abo
 ### Official documents
 
 - [IntelliJ IDEA default keymap](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf)
+- [IntelliJ IDEA keymaps](https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/keymaps)
 - [Visual Studio Code keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [Visual Studio Code keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 
