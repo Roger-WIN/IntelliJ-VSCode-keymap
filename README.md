@@ -18,11 +18,15 @@ Copy `VS Code for Windows.xml` to `%USERPROFILE%\.IntelliJIdea<xxx>\config\keyma
 
 Copy `VS Code for Linux.xml` to `/home/<user>/.IntelliJIdea<xxx>/config/keymaps`.
 
+### macOS
+
+Copy `VS Code for macOS.xml` to `~/Library/Preferences/IntelliJIdea<xxx>/keymaps/`.
+
 ## Note
 
 ### Install
 
-If there is no `keymaps` directory in the IDE’s `config` directory, manually create it.
+If there is no `keymaps` directory, manually create it.
 
 To actually change the keymap, open settings (`Ctrl+Alt+S`), select the Keymap page and choose "Visual Studio Code" in the dropdown menu. You will need to restart the IDE for it to show up.
 
@@ -72,6 +76,7 @@ You can also choose to delete the code commented or all of it in the example abo
 - [IntelliJ IDEA keymaps](https://github.com/JetBrains/intellij-community/tree/master/platform/platform-resources/src/keymaps)
 - [Visual Studio Code keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 - [Visual Studio Code keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+- [Visual Studio Code keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
 
 ### Open-source repositories
 
